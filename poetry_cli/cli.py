@@ -11,7 +11,9 @@ def run_cmd(cmd):
 
 
 @click.command()
-@click.option("--project-name", prompt="Enter your project name", help="The name of the project")
+@click.option(
+    "--project-name", prompt="Enter your project name", help="The name of the project"
+)
 @click.option(
     "--dependencies",
     prompt="Enter your dependencies, space separated",
@@ -20,10 +22,14 @@ def run_cmd(cmd):
 )
 @click.option("--create-env", is_flag=True, help="Whether or not to create a .env file")
 @click.option(
-    "--create-gitignore", is_flag=True, help="Whether or not to create a .gitignore file"
+    "--create-gitignore",
+    is_flag=True,
+    help="Whether or not to create a .gitignore file",
 )
 @click.option(
-    "--create-main", is_flag=True, help="Whether or not to create a main.py file in the project directory"
+    "--create-main",
+    is_flag=True,
+    help="Whether or not to create a main.py file in the project directory",
 )
 @click.option(
     "--create-test",
