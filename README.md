@@ -16,7 +16,7 @@ The Poetry CLI Project Creator is an interactive command-line interface (CLI) to
 Clone this repository to your local machine:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/embedhead-io/Poetry-CLI
 
 This tool relies on Python 3. Make sure you have Python 3 installed. If not, download it from the official Python website.
 
