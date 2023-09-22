@@ -29,11 +29,3 @@ You can use the poetry.sh script to run the Poetry CLI Project Creator:
 When you run the script, you’ll be prompted to enter the directory of your Poetry CLI script. If you leave this empty and press Enter, the script will use a default directory.
 
 The CLI will then ask you a series of questions to customize your new Poetry project.
-
-Contributing
-
-We welcome contributions! Please feel free to submit a Pull Request.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
